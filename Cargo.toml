@@ -11,3 +11,5 @@ maud = { version = "0.26.0", features = ["actix-web"]}
 tokio = { version = "1.36.0", features = ["full"] }
 reqwest = "0.11.24"
 select = "0.6.0"
+serde_json = { version = "1.0.114" }
+serde = { version = "1.0.197", features = ["derive"] }
